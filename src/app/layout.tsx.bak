@@ -9,25 +9,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces" });
 
 export const metadata: Metadata = {
-  title: "Vital Flow Physical Therapy | Physical Therapy in Warminster & Doylestown, PA",
+  title: "Vital Flow Physical Therapy | In-Home PT in Doylestown & Bucks County",
   description:
-    "Holistic concierge physical therapy in Warminster, PA. Pelvic floor, orthopedic, vestibular, and pain management — delivered in 4–6 visits, not 8–12. Medicare accepted. Serving Doylestown, Warminster, and Bucks County.",
-  openGraph: {
-    title: "Vital Flow Physical Therapy",
-    description: "Holistic concierge physical therapy in Warminster, PA. Medicare accepted.",
-    url: "https://vitalflowpt.com",
-    siteName: "Vital Flow Physical Therapy",
-    images: [
-      {
-        url: "https://vitalflowpt.com/images/og-image.webp",
-        width: 1200,
-        height: 630,
-        alt: "Vital Flow Physical Therapy Clinic",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
+    "Concierge physical therapy at your door. Pelvic floor, orthopedic, vestibular, and pain management — delivered in 4–6 visits, not 8–12. Serving Doylestown, Warminster, and surrounding Bucks County.",
 };
 
 export default function RootLayout({
@@ -40,7 +24,7 @@ export default function RootLayout({
     "@type": ["MedicalBusiness", "PhysicalTherapy"],
     name: "Vital Flow Physical Therapy",
     url: "https://vitalflowpt.com",
-    telephone: "+1-267-362-9596",
+    telephone: "+1-215-XXX-XXXX",
     email: "hello@vitalflowpt.com",
     address: {
       "@type": "PostalAddress",
@@ -63,26 +47,6 @@ export default function RootLayout({
     ],
     medicalSpecialty: ["PhysicalTherapy"],
     priceRange: "$$",
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Monday",
-        opens: "14:00",
-        closes: "17:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Friday",
-        opens: "14:00",
-        closes: "17:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Saturday",
-        opens: "09:00",
-        closes: "14:00",
-      },
-    ],
     founder: {
       "@type": "Person",
       name: "Palak Mulji",
@@ -110,7 +74,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-
-
-

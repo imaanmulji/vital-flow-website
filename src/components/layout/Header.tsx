@@ -106,7 +106,7 @@ export default function Header() {
 
       {/* Mobile Menu Panel */}
       <div
-        className={`fixed inset-0 bg-black/20 backdrop-blur-sm z-50 lg:hidden transition-opacity duration-300 ${
+        className={`fixed inset-0 bg-black/40 z-50 lg:hidden transition-opacity duration-300 ${
           isMobileMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
         onClick={() => setIsMobileMenuOpen(false)}

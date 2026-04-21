@@ -139,39 +139,39 @@ export default function Home() {
               <div className="hidden md:block col-span-1 p-6 lg:p-8 bg-brand-surface border-r border-brand-border">
                 <h3 className="font-semibold text-lg text-transparent mb-8 select-none">Features</h3>
                 <ul className="space-y-6 text-sm font-medium text-brand-textSecondary text-left">
-                  <li className="flex items-center gap-3 h-5">Time with your therapist</li>
-                  <li className="flex items-center gap-3 h-5">Typical course of care</li>
-                  <li className="flex items-center gap-3 h-5">Session location</li>
-                  <li className="flex items-center gap-3 h-5">Attention</li>
-                  <li className="flex items-center gap-3 h-5">Between-session access</li>
-                  <li className="flex items-center gap-3 h-5">Care continuity</li>
+                  <li className="flex items-start gap-3">Time with your therapist</li>
+                  <li className="flex items-start gap-3">Typical course of care</li>
+                  <li className="flex items-start gap-3">Session location</li>
+                  <li className="flex items-start gap-3">Attention</li>
+                  <li className="flex items-start gap-3">Between-session access</li>
+                  <li className="flex items-start gap-3">Care continuity</li>
                 </ul>
               </div>
               <div className="col-span-1 p-6 lg:p-8 text-center border-b md:border-b-0 md:border-r border-brand-border">
                 <h3 className="font-semibold text-lg text-brand-textSecondary mb-8">Traditional PT</h3>
                 <ul className="space-y-6 text-sm text-brand-textPrimary text-left">
-                  <li className="flex items-center gap-3 h-5">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Time</span>15–20 min (shared)</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Visits</span>8–12 visits</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Location</span>Clinic</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Attention</span>Split with 2-3 others</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Access to PT</span>Rarely direct</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Continuity</span>Different techs/PTs</div>
                   </li>
                 </ul>
@@ -180,28 +180,28 @@ export default function Home() {
                 <div className="absolute top-0 left-0 right-0 h-1 bg-brand-primary"></div>
                 <h3 className="font-semibold text-lg text-brand-primaryDark mb-8">Vital Flow</h3>
                 <ul className="space-y-6 text-sm font-medium text-brand-primaryDark text-left">
-                  <li className="flex items-center gap-3 h-5">
-                    <Check className="w-5 h-5 text-brand-success shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-primary block md:hidden mb-1">Time</span>60 min (1-on-1)</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <Check className="w-5 h-5 text-brand-success shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-primary block md:hidden mb-1">Visits</span>4–6 visits</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <Check className="w-5 h-5 text-brand-success shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-primary block md:hidden mb-1">Location</span>Private clinic room</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <Check className="w-5 h-5 text-brand-success shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-primary block md:hidden mb-1">Attention</span>Only you</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <Check className="w-5 h-5 text-brand-success shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-primary block md:hidden mb-1">Access to PT</span>Direct</div>
                   </li>
-                  <li className="flex items-center gap-3 h-5">
-                    <Check className="w-5 h-5 text-brand-success shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
                     <div><span className="font-medium text-brand-primary block md:hidden mb-1">Continuity</span>Same PT every visit</div>
                   </li>
                 </ul>
@@ -334,12 +334,17 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row gap-16 items-center max-w-5xl mx-auto">
             <div className="lg:w-1/2 w-full">
               <div className="aspect-[4/5] rounded-3xl overflow-hidden relative shadow-sm max-w-md mx-auto lg:mx-0">
+                <div className="w-full h-full bg-brand-surface border-2 border-dashed border-brand-border flex items-center justify-center p-8 text-center text-brand-textMuted font-medium">
+                  [Placeholder for Dr. Palak's Photo]
+                </div>
+                {/* 
                 <Image 
                   src="/images/dr-palak-portrait.webp" 
                   alt="Portrait of Dr. Palak Mulji, PT, DPT" 
                   fill 
                   className="object-cover" 
-                />
+                /> 
+                */}
               </div>
             </div>
             <div className="lg:w-1/2">

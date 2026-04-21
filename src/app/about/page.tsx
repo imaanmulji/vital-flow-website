@@ -58,6 +58,10 @@ export default function AboutPage() {
               {/* Image Side */}
               <div className="lg:col-span-5 order-2 lg:order-1 relative">
                 <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl">
+                  <div className="absolute inset-0 bg-brand-surface border-2 border-dashed border-brand-border flex items-center justify-center p-8 text-center text-brand-textMuted font-medium">
+                    [Placeholder for Dr. Palak's Photo]
+                  </div>
+                  {/* 
                   <Image 
                     src="/images/dr-palak-portrait.webp" 
                     alt="Dr. Palak Mulji, PT, DPT" 
@@ -66,6 +70,7 @@ export default function AboutPage() {
                     priority
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
+                  */}
                   <div className="absolute inset-0 bg-gradient-to-t from-brand-primaryDark/60 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 p-8 w-full">
                     <p className="text-white font-heading text-2xl mb-1">Palak Mulji</p>

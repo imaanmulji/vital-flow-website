@@ -137,8 +137,8 @@ export default function Home() {
           <Card className="max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-sm border-brand-border p-0">
             <div className="grid grid-cols-1 md:grid-cols-3 bg-white">
               <div className="hidden md:block col-span-1 p-6 lg:p-8 bg-brand-surface border-r border-brand-border">
-                <h3 className="font-semibold text-lg text-transparent mb-8 select-none">Features</h3>
-                <ul className="space-y-6 text-sm font-medium text-brand-textSecondary text-left">
+                <h3 className="font-semibold text-lg text-transparent mb-6 select-none">Features</h3>
+                <ul className="space-y-4 text-sm font-medium text-brand-textSecondary text-left">
                   <li className="flex items-start gap-3">Time with your therapist</li>
                   <li className="flex items-start gap-3">Typical course of care</li>
                   <li className="flex items-start gap-3">Session location</li>
@@ -147,62 +147,62 @@ export default function Home() {
                   <li className="flex items-start gap-3">Care continuity</li>
                 </ul>
               </div>
-              <div className="col-span-1 p-6 lg:p-8 text-center border-b md:border-b-0 md:border-r border-brand-border">
-                <h3 className="font-semibold text-lg text-brand-textSecondary mb-8">Traditional PT</h3>
-                <ul className="space-y-6 text-sm text-brand-textPrimary text-left">
-                  <li className="flex items-start gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Time</span>15–20 min (shared)</div>
+              <div className="col-span-1 p-6 lg:p-8 text-center border-b-4 md:border-b-0 md:border-r border-brand-surface bg-white">
+                <h3 className="font-semibold text-lg text-brand-textSecondary mb-6">Traditional PT</h3>
+                <ul className="space-y-4 text-sm text-brand-textPrimary text-left">
+                  <li className="flex items-start md:items-center gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Time:</span>15–20 min (shared)</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Visits</span>8–12 visits</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Visits:</span>8–12 visits</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Location</span>Clinic</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Location:</span>Open clinic</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Attention</span>Split with 2-3 others</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Attention:</span>Split with 2-3 others</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Access to PT</span>Rarely direct</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Access:</span>Rarely direct</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-textMuted block md:hidden mb-1">Continuity</span>Different techs/PTs</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Continuity:</span>Different techs/PTs</div>
                   </li>
                 </ul>
               </div>
-              <div className="col-span-1 p-6 lg:p-8 bg-brand-primaryLight/30 text-center relative">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-brand-primary"></div>
-                <h3 className="font-semibold text-lg text-brand-primaryDark mb-8">Vital Flow</h3>
-                <ul className="space-y-6 text-sm font-medium text-brand-primaryDark text-left">
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-primary block md:hidden mb-1">Time</span>60 min (1-on-1)</div>
+              <div className="col-span-1 p-6 lg:p-8 bg-brand-primaryLight/30 text-center relative border-t-4 md:border-t-0 border-brand-primary">
+                <div className="absolute top-0 left-0 right-0 h-1 md:h-1.5 bg-brand-primary"></div>
+                <h3 className="font-bold text-xl md:text-lg text-brand-primaryDark mb-6">The Vital Flow Way</h3>
+                <ul className="space-y-4 text-sm font-medium text-brand-primaryDark text-left">
+                  <li className="flex items-start md:items-center gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Time:</span>60 min (1-on-1)</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-primary block md:hidden mb-1">Visits</span>4–6 visits</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Visits:</span>4–6 visits</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-primary block md:hidden mb-1">Location</span>Private clinic room</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Location:</span>Private clinic room</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-primary block md:hidden mb-1">Attention</span>Only you</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Attention:</span>Only you</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-primary block md:hidden mb-1">Access to PT</span>Direct</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Access:</span>Direct</div>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5" />
-                    <div><span className="font-medium text-brand-primary block md:hidden mb-1">Continuity</span>Same PT every visit</div>
+                  <li className="flex items-start md:items-center gap-3">
+                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
+                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Continuity:</span>Same PT every visit</div>
                   </li>
                 </ul>
               </div>
@@ -333,7 +333,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col lg:flex-row gap-16 items-center max-w-5xl mx-auto">
             <div className="lg:w-1/2 w-full">
-              <div className="aspect-[4/5] rounded-3xl overflow-hidden relative shadow-sm max-w-md mx-auto lg:mx-0">
+              <div className="aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden relative shadow-sm max-w-md mx-auto lg:mx-0">
                 <div className="w-full h-full bg-brand-surface border-2 border-dashed border-brand-border flex items-center justify-center p-8 text-center text-brand-textMuted font-medium">
                   [Placeholder for Dr. Palak's Photo]
                 </div>

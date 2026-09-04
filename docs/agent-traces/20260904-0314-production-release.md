@@ -8,7 +8,7 @@ last_reviewed: 2026-09-04
 
 # Agent trace: production-release
 
-- Status: active
+- Status: complete
 - Started: 2026-09-04T03:14:45.470Z
 - Starting commit: e85422a549d710c10bec06b27f41071c8686e2ba
 
@@ -18,7 +18,7 @@ Close any remaining fixed-speed treatment claims discovered at the release gate,
 
 ## State
 
-The final BPPV speed/outcome claims have been replaced with individualized language. Fresh lint, production build, and a 25-route local production-runtime smoke pass. Independent release review found no remaining P0/P1 regression. Commit, protected preview verification, merge, and production canary remain.
+The final BPPV speed/outcome claims were replaced with individualized language, pull request #1 was merged into `main`, Vercel completed the production deployment, and `https://www.vitalflowpt.com/` passed the production canary. Independent release review found no remaining P0/P1 regression.
 
 ## Decisions
 
@@ -39,6 +39,12 @@ The final BPPV speed/outcome claims have been replaced with individualized langu
 - `npm run build` passed after the copy correction and generated all 30 routes.
 - The production-style local runtime served all 25 sitemap routes with no risky copy matches.
 - Targeted checks confirmed the two removed BPPV claims no longer render on `/blog` or `/blog/signs-you-need-vestibular-therapy`.
+- Pull request #1 merged at `2026-09-04T03:19:57Z` as `7c195773277849fa14489bfc5ed294a7d31035ad` after both Vercel checks passed.
+- Vercel marked the production deployment successful.
+- The live production sitemap smoke checked all 25 routes with zero response or risky-copy issues.
+- Live targeted checks returned HTTP 200 for `/`, `/blog`, and `/blog/signs-you-need-vestibular-therapy`; the new care/timeline copy and corrected blog language rendered while the removed claims did not.
+- The live `/favicon.ico` returned HTTP 200 and matched the approved asset byte-for-byte (SHA-256 `4d161dc3580d3228a12e7866f2e593872bbe300b61b7e2ed78c4cdbbad6a62f2`).
+- A fresh in-app browser check found the live homepage content present, no error overlay, no horizontal overflow, and no console errors.
 
 ## Reviews
 
@@ -48,11 +54,11 @@ The final BPPV speed/outcome claims have been replaced with individualized langu
 
 ## Risks
 
-- Production must not be called ready until the main-branch Vercel deployment is Ready and `vitalflowpt.com` is checked directly.
+- Browser favicon caches can temporarily retain the prior icon; the production asset itself is current and verified.
 - Medicare participation language is contradictory across existing pages. `VF-002` requires owner-confirmed policy before copy can be reconciled safely.
 - The clinician portrait remains blocked on an owner-approved image under `VF-001`.
 
 ## Continuation
 
-- Next action: commit and push the corrected release candidate, verify its Vercel preview, create and merge the GitHub pull request, then run the production canary.
-- Exact command: `git push origin codex/favicon-care-expectations`
+- Next action: resolve `VF-002` after the owner confirms the correct Medicare participation policy; resolve `VF-001` after an approved portrait is supplied.
+- Rollback: promote the Vercel production deployment immediately preceding merge `7c195773277849fa14489bfc5ed294a7d31035ad`, or revert that merge and let Vercel redeploy `main`.

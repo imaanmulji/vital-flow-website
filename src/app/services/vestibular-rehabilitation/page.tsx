@@ -32,7 +32,7 @@ export default function VestibularRehabPage() {
           description: "Driving to a large, noisy clinic when you have vertigo can be overwhelming. Our small, private practice means a calm, quiet environment with no waiting room chaos."
         },
         {
-          title: "Immediate Comfort After Treatment",
+          title: "A Calm Place After Treatment",
           description: "Maneuvers for BPPV can sometimes cause temporary dizziness or nausea. Our private treatment room lets you rest comfortably right after the procedure before heading home."
         },
         {
@@ -41,7 +41,7 @@ export default function VestibularRehabPage() {
         }
       ]}
       testimonial={{
-        quote: "After six months of hit-or-miss clinic PT, Palak solved my vertigo in three visits. She walked me through the exact movements that trigger it, and I haven't had a spin since.",
+        quote: "She walked me through the exact movements that trigger it, and I haven't had a spin since.",
         author: "Kathleen R., Doylestown"
       }}
       faqs={[
@@ -51,7 +51,7 @@ export default function VestibularRehabPage() {
         },
         {
           q: "How fast does BPPV treatment work?",
-          a: "BPPV is highly treatable. Many patients experience significant or complete relief of their vertigo after just 1 to 3 sessions of targeted repositioning maneuvers (like the Epley maneuver) performed correctly."
+          a: "BPPV is often treatable with targeted repositioning maneuvers such as the Epley maneuver. Response varies, so we reassess your symptoms and eye movements and explain whether follow-up care or a different approach is appropriate."
         },
         {
           q: "Will the treatment make me dizzy?",

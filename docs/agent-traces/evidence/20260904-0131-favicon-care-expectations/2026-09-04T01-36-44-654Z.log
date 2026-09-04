@@ -1,0 +1,30 @@
+command: ["node","--test","tools/agent/agent-tools.test.mjs"]
+started: 2026-09-04T01:36:44.654Z
+finished: 2026-09-04T01:36:45.852Z
+exit: 0
+signal: 
+error: 
+sha256: ee626bf37e0dc38a6f422d1a559b59dc59d81b8090aac65cebc805674be85b9e
+
+STDOUT
+✔ validate-agent-system.mjs exposes help without side effects (47.3398ms)
+✔ trace.mjs exposes help without side effects (61.9101ms)
+✔ run-captured.mjs exposes help without side effects (41.6816ms)
+✔ review.mjs exposes help without side effects (43.7307ms)
+✔ precommit.mjs exposes help without side effects (39.2072ms)
+✔ repair.mjs exposes help without side effects (42.6712ms)
+✔ draft project contract passes structural validation only (81.2471ms)
+✔ trace creation and captured command produce hashed evidence (148.3532ms)
+✔ completed committed trace receives an immutable lookup tag (416.3015ms)
+✔ normal validation rejects an empty directory (66.0489ms)
+✔ LLM repair refuses to run while disabled (41.48ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1100.0711
+
+STDERR

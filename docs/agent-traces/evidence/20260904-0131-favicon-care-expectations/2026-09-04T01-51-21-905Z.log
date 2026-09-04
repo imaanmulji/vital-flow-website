@@ -1,0 +1,39 @@
+command: ["node","tools/agent/precommit.mjs"]
+started: 2026-09-04T01:51:21.905Z
+finished: 2026-09-04T01:51:26.000Z
+exit: 0
+signal: 
+error: 
+sha256: 3d5bbc313ea8858fb02c3f4b7b500fd941e055dd62adc951bf732c3bbf5d5c38
+
+STDOUT
+check: npm run lint
+
+> vital-flow@0.1.0 lint
+> next lint
+
+✔ No ESLint warnings or errors
+check: node --test tools/agent/agent-tools.test.mjs
+✔ validate-agent-system.mjs exposes help without side effects (44.7698ms)
+✔ trace.mjs exposes help without side effects (61.0467ms)
+✔ run-captured.mjs exposes help without side effects (41.4888ms)
+✔ review.mjs exposes help without side effects (46.4715ms)
+✔ precommit.mjs exposes help without side effects (39.673ms)
+✔ repair.mjs exposes help without side effects (43.3555ms)
+✔ draft project contract passes structural validation only (121.1259ms)
+✔ trace creation and captured command produce hashed evidence (146.7825ms)
+✔ completed committed trace receives an immutable lookup tag (414.0107ms)
+✔ normal validation rejects an empty directory (65.3988ms)
+✔ LLM repair refuses to run while disabled (42.2418ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1135.0514
+agent-system: node tools/agent/validate-agent-system.mjs
+Agent-system validation: 0 error(s), 0 warning(s)
+
+STDERR

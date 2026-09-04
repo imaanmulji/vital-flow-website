@@ -11,7 +11,7 @@ const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces" });
 export const metadata: Metadata = {
   title: "Vital Flow Physical Therapy | Physical Therapy in Warminster & Doylestown, PA",
   description:
-    "Holistic concierge physical therapy in Warminster, PA. Pelvic floor, orthopedic, vestibular, and pain management — delivered in 4–6 visits, not 8–12. Medicare accepted. Serving Doylestown, Warminster, and Bucks County.",
+    "Holistic concierge physical therapy in Warminster, PA. Personalized pelvic floor, orthopedic, vestibular, and pain management care. Medicare accepted. Serving Doylestown, Warminster, and Bucks County.",
   openGraph: {
     title: "Vital Flow Physical Therapy",
     description: "Holistic concierge physical therapy in Warminster, PA. Medicare accepted.",

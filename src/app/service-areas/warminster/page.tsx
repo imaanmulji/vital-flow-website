@@ -17,10 +17,10 @@ export default function WarminsterPage() {
       reasons={[
         "Since Warminster is our home base, we can often accommodate local patients with very short booking windows or flexible times.",
         "Our private clinic is easy to get to with ample parking and a comfortable, quiet environment — no crowded waiting rooms.",
-        "Get back to walking Warminster Community Park faster. Our 1-on-1 model typically resolves issues in half the visits of a traditional clinic."
+        "Build confidence for the activities you enjoy, from neighborhood walks to time at Warminster Community Park, with a plan that adapts as you progress."
       ]}
       testimonial={{
-        quote: "I've had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was — and fixed the root cause. Six sessions, no more pain.",
+        quote: "I've had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was.",
         author: "David L., Newtown (Treated in Warminster area)"
       }}
     />

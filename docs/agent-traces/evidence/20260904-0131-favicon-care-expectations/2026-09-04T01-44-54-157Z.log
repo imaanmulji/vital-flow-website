@@ -1,0 +1,67 @@
+command: ["npm","run","build"]
+started: 2026-09-04T01:44:54.157Z
+finished: 2026-09-04T01:45:10.483Z
+exit: 0
+signal: 
+error: 
+sha256: d3dd32a9039522e5c0f8412ba7dc5b2c7914b6bb649753b737487f63df2dd8ab
+
+STDOUT
+
+> vital-flow@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.15
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/30) ...
+   Generating static pages (7/30) 
+   Generating static pages (14/30) 
+   Generating static pages (22/30) 
+ ✓ Generating static pages (30/30)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    1.43 kB         122 kB
+├ ○ /_not-found                          138 B          87.3 kB
+├ ○ /about                               1.4 kB          105 kB
+├ ○ /apple-icon.png                      0 B                0 B
+├ ○ /blog                                837 B           104 kB
+├ ƒ /blog/[slug]                         1.4 kB          105 kB
+├ ○ /conditions/back-pain                1.42 kB         105 kB
+├ ○ /conditions/diastasis-recti          1.42 kB         105 kB
+├ ○ /conditions/vertigo                  1.42 kB         105 kB
+├ ○ /contact                             10.7 kB         154 kB
+├ ○ /faq                                 1.96 kB         117 kB
+├ ○ /how-it-works                        1.97 kB         117 kB
+├ ○ /icon.png                            0 B                0 B
+├ ○ /insurance                           4.8 kB          160 kB
+├ ○ /medicare                            1.42 kB         105 kB
+├ ○ /robots.txt                          0 B                0 B
+├ ○ /service-areas/chalfont              862 B           110 kB
+├ ○ /service-areas/doylestown            862 B           110 kB
+├ ○ /service-areas/horsham               862 B           110 kB
+├ ○ /service-areas/newtown               862 B           110 kB
+├ ○ /service-areas/warminster            862 B           110 kB
+├ ○ /service-areas/warwick               862 B           110 kB
+├ ○ /services/orthopedic-sports          1.43 kB         122 kB
+├ ○ /services/pain-management            1.43 kB         122 kB
+├ ○ /services/pelvic-floor-therapy       1.43 kB         122 kB
+├ ○ /services/vestibular-rehabilitation  1.43 kB         122 kB
+├ ○ /sitemap.xml                         0 B                0 B
+└ ○ /telehealth                          1.42 kB         105 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-f574b449dbce256c.js       31.6 kB
+  ├ chunks/fd9d1056-835ead32fb7db620.js  53.6 kB
+  └ other shared chunks (total)          1.89 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+STDERR

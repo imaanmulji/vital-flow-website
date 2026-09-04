@@ -55,7 +55,7 @@ export default function InsuranceCalculator() {
       ctaText = "Book a free call to discuss Medicare details";
     } else if (plan === "HMO") {
       estimate = "$0–20%";
-      description = "HMOs typically require you to use in-network providers and generally do not reimburse out-of-network care without a prior authorization. The good news: your visits are HSA/FSA eligible, and many patients find the cost still works out favorably when factoring in the efficiency of 4–6 visits vs. 8–12 at a clinic. We're happy to walk through numbers with you on a free call.";
+      description = "HMOs typically require you to use in-network providers and generally do not reimburse out-of-network care without prior authorization. Your visits may be HSA/FSA eligible, and we're happy to walk through the costs for your recommended plan of care on a free call.";
       ctaText = "Book a free call about your specific plan";
     } else if (plan === "EPO" || plan === "POS") {
       estimate = "0–60%";
@@ -72,11 +72,11 @@ export default function InsuranceCalculator() {
       ctaText = "Book your first session";
     } else if (plan === "PPO" && deductible === "No") {
       estimate = "50–80% after deductible";
-      description = "PPO plans typically reimburse 50–80% of out-of-network PT after the deductible is met. Your payments now apply toward that deductible, so they're not lost — they count toward reaching it. Many patients find that 4–6 focused sessions meets their deductible faster than 8–12 scattered clinic visits would. Call us and we'll walk through the math for your specific plan.";
+      description = "PPO plans typically reimburse 50–80% of out-of-network PT after the deductible is met. Payments may apply toward that deductible. Call us and we'll walk through the costs for your recommended plan of care and your specific benefits.";
       ctaText = "Book a free call";
     } else if (plan === "HDHP") {
       estimate = "50–80% after deductible";
-      description = "With a high-deductible plan, you'll typically pay out-of-pocket until your deductible is met, then your PPO-style out-of-network benefits kick in (usually 50–80% reimbursement). The upside: HSA contributions pay for our sessions tax-free, and our efficient model means fewer total sessions to reach your deductible.";
+      description = "With a high-deductible plan, you'll typically pay out-of-pocket until your deductible is met, then your PPO-style out-of-network benefits may begin reimbursing eligible care. HSA funds can generally be used for qualified physical therapy expenses; call us to discuss your specific benefits and expected costs.";
       ctaText = "Book your first session";
     } else if (plan === "I'm not sure" || provider === "Other / Not Listed") {
       estimate = "Varies";

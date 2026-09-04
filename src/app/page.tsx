@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { HeartPulse, Activity, Compass, Sparkles, Check, X, Star, MapPin } from "lucide-react";
+import { HeartPulse, Activity, Compass, Sparkles, Star, MapPin } from "lucide-react";
 import CTABlock from "@/components/shared/CTABlock";
 
 export default function Home() {
@@ -31,19 +31,19 @@ export default function Home() {
         "@type": "Review",
         "author": { "@type": "Person", "name": "Kathleen R." },
         "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-        "reviewBody": "After six months of hit-or-miss clinic PT, Palak solved my vertigo in three visits. She walked me through the exact movements that trigger it, and I haven't had a spin since."
+        "reviewBody": "She walked me through the exact movements that trigger it, and I haven't had a spin since."
       },
       {
         "@type": "Review",
         "author": { "@type": "Person", "name": "Megan T." },
         "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-        "reviewBody": "I had diastasis after my second baby and no clinic nearby had evening appointments. Palak was so accommodating. Four sessions and my core feels like mine again."
+        "reviewBody": "I had diastasis after my second baby and no clinic nearby had evening appointments. Palak was so accommodating."
       },
       {
         "@type": "Review",
         "author": { "@type": "Person", "name": "David L." },
         "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-        "reviewBody": "I've had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was — and fixed the root cause. Six sessions, no more pain."
+        "reviewBody": "I've had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was."
       }
     ]
   };
@@ -63,10 +63,10 @@ export default function Home() {
                 PRIVATE CLINIC PHYSICAL THERAPY · DOYLESTOWN, PA
               </span>
               <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl font-bold text-brand-primaryDark leading-[1.1] mb-8 tracking-tight">
-                Get better in fewer visits. One-on-one holistic care in our private clinic.
+                One-on-one physical therapy built around you.
               </h1>
               <p className="text-lg md:text-xl lg:text-[22px] text-brand-textPrimary leading-relaxed mb-10 max-w-2xl">
-                Vital Flow is concierge holistic physical therapy delivered in our private clinic and via telehealth. Most patients complete care in 4–6 visits — about half the industry average — because every session is a full hour, one-on-one, with Dr. Palak Mulji.
+                Vital Flow offers holistic physical therapy in a private clinic and via telehealth. Every session is a full hour, one-on-one, with Dr. Palak Mulji, and your plan adapts to your goals and response to care.
               </p>
               <div className="flex flex-col sm:flex-row items-start gap-4 mb-8">
                 <Button asChild size="lg" className="bg-brand-primary hover:bg-brand-primaryDark text-white rounded-full px-8 py-6 text-base w-full sm:w-auto">
@@ -81,7 +81,7 @@ export default function Home() {
                 </Button>
               </div>
               <div className="flex items-center gap-2 text-sm text-brand-textSecondary font-medium">
-                <div className="flex text-amber-400">
+                <div className="flex text-amber-400" role="img" aria-label="5 out of 5 stars">
                   <Star className="w-4 h-4 fill-current" />
                   <Star className="w-4 h-4 fill-current" />
                   <Star className="w-4 h-4 fill-current" />
@@ -98,6 +98,7 @@ export default function Home() {
                   src="/images/hero-clinic.webp" 
                   alt="Dr. Palak Mulji guiding a patient through mobility exercises in our private clinic" 
                   fill 
+                  sizes="(min-width: 1024px) 40vw, 100vw"
                   className="object-cover" 
                   priority
                 />
@@ -126,88 +127,56 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7.3 The Vital Flow Difference */}
+      {/* 7.3 Care approach */}
       <section className="py-20 md:py-32 bg-brand-bg">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-brand-primaryDark mb-6">Physical therapy, done differently.</h2>
-            <p className="text-lg text-brand-textSecondary">Traditional PT clinics juggle three patients per hour. We don&apos;t.</p>
+          <div className="max-w-3xl mb-12 md:mb-16">
+            <p className="text-xs md:text-sm font-semibold text-brand-primary tracking-[0.16em] uppercase mb-4">
+              Care built around you
+            </p>
+            <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-brand-primaryDark mb-6">
+              A plan that evolves as you progress.
+            </h2>
+            <p className="text-lg text-brand-textSecondary leading-relaxed">
+              Every person arrives with a different history, body, and goal. Your care begins with a thorough evaluation, then adapts based on how you respond—not a preset timeline.
+            </p>
           </div>
 
-          <Card className="max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-sm border-brand-border p-0">
-            <div className="grid grid-cols-1 md:grid-cols-3 bg-white">
-              <div className="hidden md:block col-span-1 p-6 lg:p-8 bg-brand-surface border-r border-brand-border">
-                <h3 className="font-semibold text-lg text-transparent mb-6 select-none">Features</h3>
-                <ul className="space-y-4 text-sm font-medium text-brand-textSecondary text-left">
-                  <li className="flex items-start gap-3">Time with your therapist</li>
-                  <li className="flex items-start gap-3">Typical course of care</li>
-                  <li className="flex items-start gap-3">Session location</li>
-                  <li className="flex items-start gap-3">Attention</li>
-                  <li className="flex items-start gap-3">Between-session access</li>
-                  <li className="flex items-start gap-3">Care continuity</li>
-                </ul>
-              </div>
-              <div className="col-span-1 p-6 lg:p-8 text-center border-b-4 md:border-b-0 md:border-r border-brand-surface bg-white">
-                <h3 className="font-semibold text-lg text-brand-textSecondary mb-6">Traditional PT</h3>
-                <ul className="space-y-4 text-sm text-brand-textPrimary text-left">
-                  <li className="flex items-start md:items-center gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Time:</span>15–20 min (shared)</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Visits:</span>8–12 visits</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Location:</span>Open clinic</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Attention:</span>Split with 2-3 others</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Access:</span>Rarely direct</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <X className="w-5 h-5 text-brand-textMuted shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-medium text-brand-textMuted md:hidden mr-1">Continuity:</span>Different techs/PTs</div>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-span-1 p-6 lg:p-8 bg-brand-primaryLight/30 text-center relative border-t-4 md:border-t-0 border-brand-primary">
-                <div className="absolute top-0 left-0 right-0 h-1 md:h-1.5 bg-brand-primary"></div>
-                <h3 className="font-bold text-xl md:text-lg text-brand-primaryDark mb-6">The Vital Flow Way</h3>
-                <ul className="space-y-4 text-sm font-medium text-brand-primaryDark text-left">
-                  <li className="flex items-start md:items-center gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Time:</span>60 min (1-on-1)</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Visits:</span>4–6 visits</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Location:</span>Private clinic room</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Attention:</span>Only you</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Access:</span>Direct</div>
-                  </li>
-                  <li className="flex items-start md:items-center gap-3">
-                    <Check className="w-5 h-5 text-brand-success shrink-0 mt-0.5 md:mt-0" />
-                    <div><span className="font-bold text-brand-primary md:hidden mr-1">Continuity:</span>Same PT every visit</div>
-                  </li>
-                </ul>
-              </div>
+          <ol className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-5xl">
+            {[
+              ["01", "Focused, one-on-one care", "Your appointment is dedicated to you, with space to ask questions and work through what matters most."],
+              ["02", "A plan you understand", "Leave your evaluation with clear priorities, practical next steps, and a plan shaped around your goals."],
+              ["03", "Progress reviewed together", "Each visit builds on what is helping. When something is not working, the plan changes with you."],
+              ["04", "One therapist throughout", "Work with Dr. Mulji from your first evaluation through your final visit for consistent, connected care."],
+            ].map(([number, title, description]) => (
+              <li key={number}>
+                <Card className="h-full rounded-3xl border-brand-border bg-white/80 p-7 md:p-8 shadow-none">
+                  <span aria-hidden="true" className="inline-flex w-10 h-10 items-center justify-center rounded-full bg-brand-primaryLight text-brand-primary text-xs font-bold">
+                    {number}
+                  </span>
+                  <h3 className="font-heading text-2xl text-brand-primaryDark mt-6 mb-3">{title}</h3>
+                  <p className="text-brand-textSecondary leading-relaxed">{description}</p>
+                </Card>
+              </li>
+            ))}
+          </ol>
+
+          <aside className="max-w-5xl mt-5 rounded-3xl bg-brand-primaryLight/60 p-7 md:p-10 lg:p-12 grid grid-cols-1 lg:grid-cols-[1.35fr_0.65fr] gap-8 items-center">
+            <div>
+              <h3 className="font-heading text-2xl md:text-3xl text-brand-primaryDark mb-4">Your timeline is personal.</h3>
+              <p className="text-brand-textPrimary leading-relaxed">
+                Recovery depends on your condition, health history, goals, and how your body responds. After your evaluation, Dr. Mulji will explain what she sees, recommend next steps, and revisit the plan with you as care progresses.
+              </p>
             </div>
-          </Card>
+            <div className="flex flex-col gap-3">
+              <Button asChild size="lg" className="bg-brand-primary hover:bg-brand-primaryDark text-white rounded-full px-6 py-6">
+                <a href="https://vitaflowpt.janeapp.com/" target="_blank" rel="noopener noreferrer">Book a free consultation</a>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="rounded-full border-brand-primary text-brand-primary bg-white/70 hover:bg-white px-6 py-6">
+                <Link href="/how-it-works">How your first visit works</Link>
+              </Button>
+            </div>
+          </aside>
         </div>
       </section>
 
@@ -318,9 +287,9 @@ export default function Home() {
                 <div className="w-14 h-14 rounded-full bg-brand-primary text-white flex items-center justify-center font-heading text-xl font-semibold z-10 mb-6 shadow-sm">
                   3
                 </div>
-                <h3 className="font-semibold text-xl text-brand-primaryDark mb-4">4–6 targeted sessions</h3>
+                <h3 className="font-semibold text-xl text-brand-primaryDark mb-4">Targeted follow-up care</h3>
                 <p className="text-brand-textSecondary leading-relaxed">
-                  Hands-on treatment plus a personalized program built around your life. Most people are back to what they love within 4–6 weeks.
+                  Hands-on treatment plus a personalized program built around your life. We review progress with you and adjust the plan as you move toward what matters most.
                 </p>
               </div>
             </div>
@@ -405,17 +374,20 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-brand-primaryDark mb-6">What patients say.</h2>
-            <p className="text-lg text-brand-textSecondary">Reviews from across Doylestown and Bucks County.</p>
+            <p className="text-lg text-brand-textSecondary mb-3">Reviews from across Doylestown and Bucks County.</p>
+            <p className="text-sm text-brand-textSecondary">
+              Every person responds differently. Testimonials describe individual experiences and do not guarantee results or a particular timeline.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto">
             {/* Review 1 */}
             <Card className="p-8 rounded-2xl bg-brand-bg border-none shadow-sm flex flex-col">
-              <div className="flex text-amber-400 mb-6">
+              <div className="flex text-amber-400 mb-6" role="img" aria-label="5 out of 5 stars">
                 <Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" />
               </div>
               <p className="font-heading italic text-lg lg:text-xl text-brand-textPrimary leading-relaxed mb-8 flex-grow">
-                "After six months of hit-or-miss clinic PT, Palak solved my vertigo in three visits. She walked me through the exact movements that trigger it, and I haven&apos;t had a spin since."
+                "She walked me through the exact movements that trigger it, and I haven&apos;t had a spin since."
               </p>
               <div className="text-sm font-semibold tracking-wider text-brand-textSecondary uppercase">
                 Kathleen R., Doylestown
@@ -424,11 +396,11 @@ export default function Home() {
 
             {/* Review 2 */}
             <Card className="p-8 rounded-2xl bg-brand-bg border-none shadow-sm flex flex-col">
-              <div className="flex text-amber-400 mb-6">
+              <div className="flex text-amber-400 mb-6" role="img" aria-label="5 out of 5 stars">
                 <Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" />
               </div>
               <p className="font-heading italic text-lg lg:text-xl text-brand-textPrimary leading-relaxed mb-8 flex-grow">
-                "I had diastasis after my second baby and no clinic nearby had evening appointments. Palak was so accommodating. Four sessions and my core feels like mine again."
+                "I had diastasis after my second baby and no clinic nearby had evening appointments. Palak was so accommodating."
               </p>
               <div className="text-sm font-semibold tracking-wider text-brand-textSecondary uppercase">
                 Megan T., Warwick
@@ -437,11 +409,11 @@ export default function Home() {
 
             {/* Review 3 */}
             <Card className="p-8 rounded-2xl bg-brand-bg border-none shadow-sm flex flex-col">
-              <div className="flex text-amber-400 mb-6">
+              <div className="flex text-amber-400 mb-6" role="img" aria-label="5 out of 5 stars">
                 <Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" /><Star className="w-4 h-4 fill-current" />
               </div>
               <p className="font-heading italic text-lg lg:text-xl text-brand-textPrimary leading-relaxed mb-8 flex-grow">
-                "I&apos;ve had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was — and fixed the root cause. Six sessions, no more pain."
+                "I&apos;ve had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was."
               </p>
               <div className="text-sm font-semibold tracking-wider text-brand-textSecondary uppercase">
                 David L., Newtown

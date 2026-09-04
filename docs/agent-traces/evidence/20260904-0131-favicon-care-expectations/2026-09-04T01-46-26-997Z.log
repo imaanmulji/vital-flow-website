@@ -1,0 +1,18 @@
+command: ["node","-e","const paths=['/','/how-it-works','/faq','/insurance','/services/orthopedic-sports','/conditions/back-pain','/blog/pelvic-floor-exercises-after-c-section'];const risky=/4(?:–|-)6 (?:visits|weeks|sessions)|4 to 6 (?:visits|sessions)|half the industry average|fewer visits|four weeks, not four months|recovery that.{0,20}half the length/i;(async()=>{for(const p of paths){const r=await fetch('http://127.0.0.1:3000'+p);const body=await r.text();const bad=risky.test(body);console.log(p,r.status,bad?'RISKY_COPY':'OK');if(!r.ok||bad)process.exitCode=1}})().catch(e=>{console.error(e);process.exit(1)})"]
+started: 2026-09-04T01:46:26.997Z
+finished: 2026-09-04T01:46:27.369Z
+exit: 0
+signal: 
+error: 
+sha256: 7e3c7fd059d6238091d231a950eaaa980b923e77de9481a615df06fe67c541da
+
+STDOUT
+/ 200 OK
+/how-it-works 200 OK
+/faq 200 OK
+/insurance 200 OK
+/services/orthopedic-sports 200 OK
+/conditions/back-pain 200 OK
+/blog/pelvic-floor-exercises-after-c-section 200 OK
+
+STDERR

@@ -90,7 +90,7 @@ export default function InsurancePage() {
                   Being out-of-network isn&apos;t about charging more. It&apos;s about spending more time with you. In-network contracts pressure clinics into 15-minute visits with three patients at once — not because clinicians want that, but because reimbursement rates force it.
                 </p>
                 <p className="text-lg text-brand-textSecondary leading-relaxed">
-                  By stepping outside that system, Vital Flow can offer 60-minute one-on-one care, direct access to your PT between sessions, and a recovery that&apos;s typically half the length. Most patients find the total cost comparable once you factor in fewer visits and partial reimbursement.
+                  By stepping outside that system, Vital Flow can offer 60-minute one-on-one care and direct access to your PT between sessions. Your total cost depends on your individual plan of care and any reimbursement available through your benefits.
                 </p>
               </div>
             </div>

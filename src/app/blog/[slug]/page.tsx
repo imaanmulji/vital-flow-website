@@ -196,7 +196,7 @@ const posts: Record<string, BlogPost> = {
           If you experience a brief but intense spinning sensation when you roll over in bed, look up at a high shelf, or tip your head back to rinse your hair in the shower, this is the hallmark pattern of BPPV (benign paroxysmal positional vertigo). BPPV occurs when tiny calcium crystals in the inner ear become displaced into one of the semicircular canals. The spinning typically lasts less than a minute and then fades, but it can be severe enough to cause nausea.
         </p>
         <p>
-          A trained vestibular therapist can diagnose BPPV in the office using the Dix-Hallpike test and treat it with a repositioning maneuver. Resolution rates are above 80 percent with a single treatment, according to a meta-analysis published in <em>Otolaryngology, Head and Neck Surgery</em>. This is one of the most straightforward problems in physical therapy, and there is no reason to live with it.
+          A trained vestibular therapist can evaluate BPPV in the office using positional testing and may use a repositioning maneuver as part of treatment. Your response can depend on which canal is involved, whether symptoms return, and other health factors, so follow-up testing or additional care may be appropriate. An individualized evaluation can help determine the right next step for your symptoms.
         </p>
 
         <h2>2. You Feel Unsteady Walking, Especially in Dim Lighting or on Uneven Ground</h2>

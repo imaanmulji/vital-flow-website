@@ -16,6 +16,7 @@ No repository-local product work is currently queued. Product and deployment wor
 
 ## Blocked
 
+- `VF-002` (P0): Confirm whether Vital Flow is a participating or non-participating Medicare provider. Dependency: owner-confirmed billing status. Acceptance: homepage, Medicare page, FAQ, insurance page, condition copy, and calculator all describe one consistent policy. Risk: the current inherited contradiction can create incorrect patient billing expectations.
 - `VF-001` (P1): Replace the homepage clinician-photo placeholder. Dependency: an owner-approved portrait of Dr. Palak Mulji and approved alt text. Acceptance: the verified portrait renders responsively without layout shift. Risk: `public/images/dr-palak-portrait.webp` visibly identifies a different clinician and must not be used as Dr. Mulji.
 
 ## Done

@@ -13,7 +13,7 @@ export default function BlogIndexPage() {
   const posts = [
     {
       title: "What Causes Vertigo and How Is It Treated?",
-      excerpt: "BPPV is the most common cause of vertigo, and it is also one of the most treatable conditions in physical therapy. Learn what happens inside your inner ear and how a 15-minute repositioning maneuver can resolve it.",
+      excerpt: "BPPV is a common cause of vertigo. Learn what happens inside your inner ear, how a vestibular therapist evaluates your symptoms, and where repositioning maneuvers may fit into an individualized treatment plan.",
       slug: "what-causes-vertigo-bppv-treatment",
       date: "May 10, 2026",
       category: "Vestibular"

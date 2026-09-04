@@ -8,7 +8,7 @@ last_reviewed: 2026-09-04
 
 # Agent trace: favicon-care-expectations
 
-- Status: active
+- Status: complete
 - Started: 2026-09-04T01:31:36.089Z
 - Starting commit: 5ef7e39d1a69a8854544aed8a4b878b66144b6b7
 
@@ -18,7 +18,7 @@ Replace the Vercel favicon with a Vital Flow mark, remove the homepage compariso
 
 ## State
 
-Implementation is complete in the local `codex/favicon-care-expectations` branch. Lint, production build, agent-tool tests, all-route copy smoke, favicon verification, responsive browser checks, implementation review, wrap-up review, and agent-system validation have passed. Commit, push, and Vercel preview verification remain.
+Implementation is committed and pushed on `codex/favicon-care-expectations`. Lint, production build, agent-tool tests, all-route copy smoke, favicon verification, responsive browser checks, implementation review, wrap-up review, agent-system validation, and authenticated Vercel preview verification have passed. The public production deployment remains unchanged pending owner approval.
 
 ## Decisions
 
@@ -43,6 +43,10 @@ Implementation is complete in the local `codex/favicon-care-expectations` branch
 - All 25 sitemap routes returned HTTP 200 and passed a production-runtime scan for the removed visit-count and speed claims.
 - `/favicon.ico` returned HTTP 200 and matched the source file byte-for-byte (SHA-256 `4d161dc3580d3228a12e7866f2e593872bbe300b61b7e2ed78c4cdbbad6a62f2`).
 - CUA desktop inspection found no app error overlay; observed console warnings came from a browser extension. A Next.js image `sizes` warning was fixed.
+- Vercel deployment `GTVe9WR5r4LmezoExn3vv3sxCAGb` reached Ready at `https://vital-flow-website-git-codex-favico-28a656-imaanmuljis-projects.vercel.app/`.
+- The signed-in Chrome session exercised all 25 sitemap routes on that protected preview. Every route rendered meaningful content with no 404 text, framework error overlay, or removed visit-count/speed language.
+- The deployed `/favicon.ico` opened as a 32x32 image and visibly showed the teal Vital Flow V/leaf mark.
+- The unauthenticated scripted preview smoke reached Vercel's authentication interstitial and discovered zero sitemap routes. Its captured exit-zero result is retained but is explicitly not counted as preview evidence; the authenticated browser audit above is the remote proof.
 
 ## Reviews
 
@@ -58,12 +62,14 @@ Implementation is complete in the local `codex/favicon-care-expectations` branch
 - Browser favicon caches can retain the previous icon; verify the deployment in a fresh/private tab.
 - The existing dependency tree reports 19 advisories, including the pinned Next.js 14.2.15 release. No broad dependency upgrade is included in this focused change.
 - Testimonial excerpts remain outcome-focused individual experiences; the page now states that testimonials do not guarantee results or timing.
+- The home and About pages still need an owner-approved portrait. The existing repository portrait names another clinician and was intentionally not substituted.
 - Production remains unchanged until the preview is approved and merged.
 
 ## Continuation
 
-- Next action: Commit and push the branch, wait for the Vercel preview, then repeat the browser and copy checks against that immutable preview URL.
-- Exact command: `git push -u origin codex/favicon-care-expectations`
+- Owner decision: review the Vercel preview and approve or reject publishing it to production.
+- If approved, merge `codex/favicon-care-expectations` into the production branch through the repository's normal deployment flow, then verify `https://vitalflowpt.com/` and `/favicon.ico` in a fresh/private browser session.
+- Rollback: revert the branch merge or promote the immediately preceding successful Vercel production deployment.
 
 - 2026-09-04T01:35:04.191Z — `npm run lint` — exit 0 — sha256 `15d856a2a30708b821b1a536a488b5815c73c6c56a1c80ed3f8ed70188874ca8` — evidence `evidence/20260904-0131-favicon-care-expectations/2026-09-04T01-35-04-191Z.log`
 
@@ -92,3 +98,5 @@ Implementation is complete in the local `codex/favicon-care-expectations` branch
 - 2026-09-04T01:52:20.219Z — `node ..\site-smoke.mjs http://127.0.0.1:3000/` — exit 0 — sha256 `346cb04c20172fa7bd75b0c5317db528dcf89856756ce924ca7dc069bac5f7cc` — evidence `evidence/20260904-0131-favicon-care-expectations/2026-09-04T01-52-20-219Z.log`
 
 - 2026-09-04T01:52:34.879Z — `node tools/agent/validate-agent-system.mjs` — exit 0 — sha256 `582814dc5fc33b0e0020bc1029efd05781645bc41224d16e9726cd53674679a6` — evidence `evidence/20260904-0131-favicon-care-expectations/2026-09-04T01-52-34-879Z.log`
+
+- 2026-09-04T01:55:06.254Z — `node ..\site-smoke.mjs https://vital-flow-website-git-codex-favico-28a656-imaanmuljis-projects.vercel.app/` — exit 0 — sha256 `528ddfdad0c4f6ae078b719744fad87642c544b55c93b86562fe278e5f5e7d1c` — evidence `evidence/20260904-0131-favicon-care-expectations/2026-09-04T01-55-06-254Z.log`

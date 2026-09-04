@@ -1,0 +1,23 @@
+command: ["node","-e","const risky=/4(?:–|-)6|4 to 6|1 to 3 (?:visits|sessions)|2 to 3 sessions|half the (?:visits|industry average|length)|fewer visits|single (?:visit|session)|three visits|four sessions|six sessions|four to six weeks/i;(async()=>{const xml=await (await fetch('http://127.0.0.1:3000/sitemap.xml')).text();const paths=[...xml.matchAll(/<loc>(.*?)<\\\\/loc>/g)].map(m=>new URL(m[1]).pathname);let bad=0;for(const p of paths){const r=await fetch('http://127.0.0.1:3000'+p);const body=await r.text();const match=body.match(risky);if(!r.ok||match){console.log(p,r.status,match?.[0]||'HTTP_ERROR');bad++}}console.log('Checked',paths.length,'sitemap routes; issues',bad);if(bad)process.exit(1)})().catch(e=>{console.error(e);process.exit(1)})"]
+started: 2026-09-04T01:52:08.038Z
+finished: 2026-09-04T01:52:08.166Z
+exit: 1
+signal: 
+error: 
+sha256: f04ae4edff3ab177625e8dc8c86c41eb0a0fd8a0b03facb83710d0f7a0d32ae6
+
+STDOUT
+
+STDERR
+[eval]:1
+const risky=/4(?:–|-)6|4 to 6|1 to 3 (?:visits|sessions)|2 to 3 sessions|half the (?:visits|industry average|length)|fewer visits|single (?:visit|session)|three visits|four sessions|six sessions|four to six weeks/i;(async()=>{const xml=await (await fetch('http://127.0.0.1:3000/sitemap.xml')).text();const paths=[...xml.matchAll(/<loc>(.*?)<\\/loc>/g)].map(m=>new URL(m[1]).pathname);let bad=0;for(const p of paths){const r=await fetch('http://127.0.0.1:3000'+p);const body=await r.text();const match=body.match(risky);if(!r.ok||match){console.log(p,r.status,match?.[0]||'HTTP_ERROR');bad++}}console.log('Checked',paths.length,'sitemap routes; issues',bad);if(bad)process.exit(1)})().catch(e=>{console.error(e);process.exit(1)})
+                                                                                                                                                                                                                                                                                                                                         ^
+Expected ',', got 'numeric literal'
+
+SyntaxError: Invalid regular expression flags
+    at makeContextifyScript (node:internal/vm:194:14)
+    at compileScript (node:internal/process/execution:388:10)
+    at evalTypeScript (node:internal/process/execution:260:22)
+    at node:internal/main/eval_string:71:3
+
+Node.js v24.14.0

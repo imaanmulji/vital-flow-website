@@ -6,7 +6,7 @@ import { Phone, Home, ActivitySquare, Package, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "How It Works | Vital Flow Physical Therapy",
-  description: "From our first free phone consultation to your clinic evaluation and typical 4-6 week treatment plan. See how concierge physical therapy works.",
+  description: "From your first free phone consultation to a clinic evaluation and personalized treatment plan. See how concierge physical therapy works.",
   alternates: { canonical: "https://vitalflowpt.com/how-it-works" }
 };
 
@@ -18,7 +18,7 @@ export default function HowItWorksPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-brand-primaryDark mb-6 leading-tight">
-              From first call to feeling better — in four weeks, not four months.
+              From the first call to a plan built around you.
             </h1>
             <p className="text-lg md:text-xl text-brand-textSecondary leading-relaxed max-w-2xl mx-auto">
               We've designed our process to be as simple and frictionless as possible. No waiting rooms, no complex intake packets, just direct access to expert care.
@@ -118,7 +118,7 @@ export default function HowItWorksPage() {
             <div className="w-full md:w-2/3">
               <h2 className="font-heading text-3xl md:text-4xl text-brand-primaryDark mb-6">Treatment plan</h2>
               <p className="text-lg text-brand-textSecondary leading-relaxed mb-6">
-                Most patients see us for a total of 4 to 6 visits, typically spaced once a week to start. We use our time efficiently so you spend less total time in therapy.
+                Your recommended visit frequency and length of care are based on your evaluation, goals, health history, and response to treatment. We review progress together and adjust the plan as your needs change.
               </p>
               <div className="bg-brand-accentLight p-6 rounded-2xl">
                 <h4 className="font-semibold text-brand-primaryDark mb-4">What sessions look like:</h4>

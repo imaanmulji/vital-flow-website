@@ -20,7 +20,7 @@ export default function ChalfontPage() {
         "We are a participating provider with Medicare Part B, which is uncommon for practices that offer the concierge-level care we provide."
       ]}
       testimonial={{
-        quote: "After my second pregnancy, I was dealing with leaking every time I sneezed or jumped. My OB said it was normal. Palak said it was treatable. She was right. Four sessions and I am back to running without any issues.",
+        quote: "After my second pregnancy, I was dealing with leaking every time I sneezed or jumped. My OB said it was normal. Palak said it was treatable. She was right.",
         author: "Sarah M., Chalfont"
       }}
     />

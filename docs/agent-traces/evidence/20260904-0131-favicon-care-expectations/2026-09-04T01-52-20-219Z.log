@@ -1,0 +1,12 @@
+command: ["node","..\\site-smoke.mjs","http://127.0.0.1:3000/"]
+started: 2026-09-04T01:52:20.219Z
+finished: 2026-09-04T01:52:20.838Z
+exit: 0
+signal: 
+error: 
+sha256: 346cb04c20172fa7bd75b0c5317db528dcf89856756ce924ca7dc069bac5f7cc
+
+STDOUT
+Checked 25 sitemap routes; issues 0
+
+STDERR

@@ -115,7 +115,7 @@ export default function BackPainPage() {
               Clinical practice guidelines from the American Physical Therapy Association (APTA) and the American College of Physicians both recommend physical therapy as a first-line treatment for low back pain, ahead of imaging, injections, and surgery for most cases. A 2021 study in the <em>Journal of Orthopaedic and Sports Physical Therapy</em> found that patients who received individualized, exercise-based physical therapy had significantly better outcomes at 12 months compared to those who received generic exercise programs.
             </p>
             <p>
-              The key word there is &quot;individualized.&quot; That is what the one-on-one model at Vital Flow makes possible. When I can spend a full hour with each patient, I can identify the specific drivers of their pain and target them precisely. Most of my back pain patients complete their course of care in 4 to 6 visits.
+              The key word there is &quot;individualized.&quot; That is what the one-on-one model at Vital Flow makes possible. When I can spend a full hour with each patient, I can identify the specific drivers of their pain, target them precisely, and adjust the plan as they progress.
             </p>
           </div>
         </div>
@@ -144,9 +144,9 @@ export default function BackPainPage() {
             </Card>
             <Card className="p-8 rounded-2xl bg-white border-none shadow-sm">
               <CheckCircle2 className="w-8 h-8 text-brand-primary mb-4" />
-              <h3 className="font-semibold text-lg text-brand-primaryDark mb-3">Faster Resolution</h3>
+              <h3 className="font-semibold text-lg text-brand-primaryDark mb-3">Focused, Responsive Care</h3>
               <p className="text-brand-textSecondary leading-relaxed">
-                Our patients typically complete care in 4 to 6 visits, roughly half the industry average, because each session is a full 60 minutes of focused treatment.
+                Each 60-minute session is focused on your specific findings and goals. We review what is helping and adapt your care as your needs change.
               </p>
             </Card>
           </div>

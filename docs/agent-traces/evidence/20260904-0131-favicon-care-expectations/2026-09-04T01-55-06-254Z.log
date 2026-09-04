@@ -1,0 +1,12 @@
+command: ["node","..\\site-smoke.mjs","https://vital-flow-website-git-codex-favico-28a656-imaanmuljis-projects.vercel.app/"]
+started: 2026-09-04T01:55:06.254Z
+finished: 2026-09-04T01:55:07.018Z
+exit: 0
+signal: 
+error: 
+sha256: 528ddfdad0c4f6ae078b719744fad87642c544b55c93b86562fe278e5f5e7d1c
+
+STDOUT
+Checked 0 sitemap routes; issues 0
+
+STDERR

@@ -16,7 +16,7 @@ interface BlogPost {
 const posts: Record<string, BlogPost> = {
   "what-causes-vertigo-bppv-treatment": {
     title: "What Causes Vertigo and How Is It Treated?",
-    desc: "BPPV is one of the most common causes of vertigo. Learn what happens inside your inner ear and how the Epley maneuver can resolve it, often in a single session.",
+    desc: "BPPV is one of the most common causes of vertigo. Learn what happens inside your inner ear and how clinicians use the Epley maneuver to treat it.",
     category: "Vestibular",
     date: "May 10, 2026",
     readTime: "7 min read",
@@ -71,10 +71,10 @@ const posts: Record<string, BlogPost> = {
           The primary treatment for posterior canal BPPV is the Epley maneuver, also called the canalith repositioning procedure. It involves a series of specific head and body position changes that use gravity to guide the displaced crystals out of the semicircular canal and back toward the utricle, where they can be reabsorbed.
         </p>
         <p>
-          A systematic review published in the <em>Cochrane Database of Systematic Reviews</em> found that the Epley maneuver resolves posterior canal BPPV in approximately 80 percent of patients after a single treatment session, and success rates climb to over 90 percent with a second session if needed. These are remarkable numbers for any medical intervention.
+          A systematic review published in the <em>Cochrane Database of Systematic Reviews</em> supports the Epley maneuver as an effective treatment for posterior canal BPPV. Individual response varies, and some people need reassessment, a repeat maneuver, or a different approach based on which canal is involved.
         </p>
         <p>
-          The entire procedure takes about 15 minutes. There is no medication, no imaging, and no surgery involved. I have treated hundreds of BPPV cases over my 25 years of practice, and it remains one of the most satisfying things I do because the relief is often immediate. Patients who walked into the clinic unable to turn their head without the room spinning will frequently walk out feeling steady and calm.
+          The procedure itself takes about 15 minutes and does not involve medication, imaging, or surgery. Afterward, I reassess symptoms and eye movements, explain what changed, and recommend next steps based on the individual response.
         </p>
 
         <h2>What About the Other Types of Vertigo?</h2>
@@ -169,7 +169,7 @@ const posts: Record<string, BlogPost> = {
           <li>Guidance on safe return to exercise, lifting, and daily activities</li>
         </ul>
         <p>
-          Most of my postpartum patients see meaningful improvement within 4 to 6 sessions. The goal is always to get you feeling strong, confident, and connected to your body again so you can keep up with the demands of caring for a new baby.
+          Recovery after a C-section is different for every person. We review your progress as care continues and adapt your plan to help you feel strong, confident, and connected to your body again while meeting the demands of caring for a new baby.
         </p>
 
         <h2>The Bottom Line</h2>
@@ -196,7 +196,7 @@ const posts: Record<string, BlogPost> = {
           If you experience a brief but intense spinning sensation when you roll over in bed, look up at a high shelf, or tip your head back to rinse your hair in the shower, this is the hallmark pattern of BPPV (benign paroxysmal positional vertigo). BPPV occurs when tiny calcium crystals in the inner ear become displaced into one of the semicircular canals. The spinning typically lasts less than a minute and then fades, but it can be severe enough to cause nausea.
         </p>
         <p>
-          A trained vestibular therapist can diagnose BPPV in the office using the Dix-Hallpike test and treat it with a repositioning maneuver. Resolution rates are above 80 percent with a single treatment, according to a meta-analysis published in <em>Otolaryngology, Head and Neck Surgery</em>. This is one of the most straightforward problems in physical therapy, and there is no reason to live with it.
+          A trained vestibular therapist can evaluate BPPV in the office using positional testing and may use a repositioning maneuver as part of treatment. Your response can depend on which canal is involved, whether symptoms return, and other health factors, so follow-up testing or additional care may be appropriate. An individualized evaluation can help determine the right next step for your symptoms.
         </p>
 
         <h2>2. You Feel Unsteady Walking, Especially in Dim Lighting or on Uneven Ground</h2>
@@ -223,7 +223,7 @@ const posts: Record<string, BlogPost> = {
           This symptom is called visual motion sensitivity, and it is a common sign of vestibular dysfunction that patients often do not connect to their inner ears. When the vestibular system is not processing motion information correctly, the brain becomes more dependent on visual input. This means that visual stimuli that simulate movement (like scrolling, busy patterns, grocery store aisles, or action movies) can trigger a feeling of disorientation, nausea, or vague dizziness.
         </p>
         <p>
-          In therapy, we address this with a combination of habituation exercises (controlled, repeated exposure to the triggering visual stimuli) and vestibular rehabilitation exercises that help the brain rely less on vision and more on accurate vestibular input. Most patients notice a significant reduction in visual sensitivity within four to six weeks of consistent therapy.
+          In therapy, we address this with a combination of habituation exercises (controlled, repeated exposure to the triggering visual stimuli) and vestibular rehabilitation exercises that help the brain rely less on vision and more on accurate vestibular input. Progress varies, so the plan is adjusted according to your symptoms, tolerance, and goals.
         </p>
 
         <h2>5. You Have Started Avoiding Activities Because of Dizziness or Fear of Falling</h2>

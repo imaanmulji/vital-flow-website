@@ -1,0 +1,16 @@
+command: ["npm","run","lint"]
+started: 2026-09-04T01:35:04.191Z
+finished: 2026-09-04T01:35:07.246Z
+exit: 0
+signal: 
+error: 
+sha256: 15d856a2a30708b821b1a536a488b5815c73c6c56a1c80ed3f8ed70188874ca8
+
+STDOUT
+
+> vital-flow@0.1.0 lint
+> next lint
+
+✔ No ESLint warnings or errors
+
+STDERR

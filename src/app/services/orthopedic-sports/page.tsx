@@ -33,8 +33,8 @@ export default function OrthopedicSportsPage() {
           description: "We don't just run you through cookie-cutter exercises. We evaluate how you actually move — your lifting form, your running gait, your desk posture — and tailor treatment to your specific daily demands."
         },
         {
-          title: "Faster Recovery Times",
-          description: "Because every session is 60 minutes of uninterrupted, one-on-one attention, patients typically resolve orthopedic issues in 4-6 visits instead of the standard 8-12."
+          title: "Focused, Responsive Care",
+          description: "Every session provides 60 minutes of uninterrupted, one-on-one attention. Your treatment plan is reviewed and adjusted as your movement, symptoms, and goals change."
         },
         {
           title: "Seamless Post-Op Care",
@@ -42,7 +42,7 @@ export default function OrthopedicSportsPage() {
         }
       ]}
       testimonial={{
-        quote: "I've had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was — and fixed the root cause. Six sessions, no more pain.",
+        quote: "I've had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was.",
         author: "David L., Newtown"
       }}
       faqs={[

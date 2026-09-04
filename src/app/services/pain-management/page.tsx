@@ -40,7 +40,7 @@ export default function PainManagementPage() {
         }
       ]}
       testimonial={{
-        quote: "I've had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was — and fixed the root cause. Six sessions, no more pain.",
+        quote: "I've had back pain on and off for fifteen years. Palak actually watched me work at my standing desk — where the problem was.",
         author: "David L., Newtown"
       }}
       faqs={[
@@ -58,7 +58,7 @@ export default function PainManagementPage() {
         },
         {
           q: "How long will it take to see results?",
-          a: "Chronic pain is a journey, but most patients notice a shift in their understanding and management of pain within the first 2 to 3 sessions. True functional change and lasting relief typically build over a 6 to 8 week focused program."
+          a: "There is no single timeline for chronic pain. Your plan depends on your history, symptoms, goals, and response to care. We review what is changing at each visit and adjust the approach with you."
         },
         {
           q: "Can you communicate with my pain management doctor?",

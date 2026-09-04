@@ -55,7 +55,7 @@ export default function FAQPage() {
     },
     {
       q: "Why are you cash-based / out-of-network?",
-      a: "In-network contracts pressure clinics into 15-minute visits with three patients at once because reimbursement rates force it. By stepping outside that system, Vital Flow can offer 60-minute one-on-one care, direct access to your PT between sessions, and a recovery that's typically half the length."
+      a: "Vital Flow's out-of-network model supports 60-minute one-on-one care and direct access to your PT between sessions. Your recommended visit frequency and length of care are based on your evaluation, goals, and response to treatment."
     }
   ];
 

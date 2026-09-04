@@ -41,7 +41,7 @@ export default function PelvicFloorTherapyPage() {
         }
       ]}
       testimonial={{
-        quote: "I had diastasis after my second baby and no clinic nearby had evening appointments. Palak was so accommodating with scheduling. Four sessions and my core feels like mine again.",
+        quote: "I had diastasis after my second baby and no clinic nearby had evening appointments. Palak was so accommodating with scheduling.",
         author: "Megan T., Warwick"
       }}
       faqs={[

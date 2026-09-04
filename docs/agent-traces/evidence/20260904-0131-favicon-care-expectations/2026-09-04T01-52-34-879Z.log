@@ -1,0 +1,12 @@
+command: ["node","tools/agent/validate-agent-system.mjs"]
+started: 2026-09-04T01:52:34.879Z
+finished: 2026-09-04T01:52:35.051Z
+exit: 0
+signal: 
+error: 
+sha256: 582814dc5fc33b0e0020bc1029efd05781645bc41224d16e9726cd53674679a6
+
+STDOUT
+Agent-system validation: 0 error(s), 0 warning(s)
+
+STDERR

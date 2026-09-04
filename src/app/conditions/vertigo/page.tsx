@@ -7,7 +7,7 @@ import { CheckCircle2, ChevronRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Vertigo Treatment in Warminster & Doylestown, PA | Vital Flow PT",
-  description: "Expert vertigo and BPPV treatment from a Certified Vestibular Therapist in Warminster, PA. Most cases resolve in 1 to 3 visits. Medicare accepted.",
+  description: "Personalized vertigo and BPPV treatment from a Certified Vestibular Therapist in Warminster, PA. Medicare accepted.",
   alternates: { canonical: "https://vitalflowpt.com/conditions/vertigo" }
 };
 
@@ -53,7 +53,7 @@ export default function VertigoPage() {
               Vertigo and BPPV Treatment in Warminster, PA
             </h1>
             <p className="text-lg md:text-xl text-brand-textSecondary leading-relaxed max-w-3xl mb-10">
-              Vertigo is disorienting, exhausting, and often frightening. The good news is that the most common type of vertigo, called BPPV, can frequently be resolved in a single visit with the right diagnosis and a targeted repositioning maneuver. As a Certified Vestibular Therapist through Emory University with over 25 years of clinical experience, I have treated hundreds of vertigo cases at our Warminster clinic.
+              Vertigo is disorienting, exhausting, and often frightening. The most common type, called BPPV, often responds to a targeted repositioning maneuver, but the right treatment starts with identifying the cause of your symptoms. As a Certified Vestibular Therapist through Emory University with over 25 years of clinical experience, I have treated hundreds of vertigo cases at our Warminster clinic.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-brand-primary hover:bg-brand-primaryDark text-white rounded-full px-8 py-6 text-base">
@@ -97,7 +97,7 @@ export default function VertigoPage() {
               Treatment begins with a thorough vestibular evaluation. I use the Dix-Hallpike test and other positional maneuvers to identify exactly which canal is affected and which type of BPPV is present. From there, I perform the appropriate repositioning maneuver (the Epley maneuver for posterior canal BPPV, the BBQ roll for horizontal canal BPPV) to guide the displaced crystals back where they belong.
             </p>
             <p>
-              A Cochrane Review found that the Epley maneuver resolves posterior canal BPPV in approximately 80 percent of patients after a single session. Most of my patients notice significant improvement before they leave the clinic.
+              Research supports the Epley maneuver as an effective treatment for posterior canal BPPV. Individual response varies, so I reassess your symptoms and eye movements after treatment and explain whether follow-up care or a different maneuver is appropriate.
             </p>
             <p>
               For patients with non-BPPV vertigo (vestibular neuritis, Meniere&apos;s disease, vestibular migraine, or other causes), I design individualized vestibular rehabilitation programs that include gaze stabilization exercises, habituation exercises, and progressive balance training to help the brain compensate for the vestibular deficit.

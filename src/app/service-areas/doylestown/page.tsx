@@ -20,7 +20,7 @@ export default function DoylestownPage() {
         "We evaluate how you move in real-world situations — whether that's your home office ergonomics, how you lift groceries, or your running gait."
       ]}
       testimonial={{
-        quote: "After six months of hit-or-miss clinic PT, Palak solved my vertigo in three visits. She walked me through the exact movements that trigger it, and I haven't had a spin since.",
+        quote: "She walked me through the exact movements that trigger it, and I haven't had a spin since.",
         author: "Kathleen R., Doylestown"
       }}
     />
